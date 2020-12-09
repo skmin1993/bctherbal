@@ -156,22 +156,22 @@
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="fa fa-heartbeat"></i></div>
               <h4 class="title"><a href=" ">纯中药配制</a></h4>
-              <p class="description">hello</p>
+              <p class="description">&nbsp;</p>
             </div>
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="fa fa-photo"></i></div>
               <h4 class="title"><a href="">百分百无类固醇</a></h4>
-              <p class="description">yellow</p>
+              <p class="description">&nbsp;</p>
             </div>
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href="">百分百无止痛剂</a></h4>
-              <p class="description">pillow</p>
+              <p class="description">&nbsp;</p>
             </div>
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
               <h4 class="title"><a href=""> 符合马来西亚国家药物监控局安全标准 </a></h4>
-              <p class="description">orange</p>
+              <p class="description">&nbsp;</p>
             </div>
             <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
               &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
@@ -179,7 +179,8 @@
             </div>
           </div>            
           <div class="col-lg-5 content order-lg-1 order-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="/assets/dapuwan-374c0110f0036db51a6773c3678a0c296f07362f413b34b26df36428303ff2b5.jpg" width="600" height="600">
+            <img src="/assets/dapuwan-374c0110f0036db51a6773c3678a0c296f07362f413b34b26df36428303ff2b5.jpg" style="width: 100%;
+  height: auto;" width="600" height="600" >
           </div>
         </div>
 
@@ -253,7 +254,31 @@
         Licensing information: https://bootstrapmade.com/license/
         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
       -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">TWEB COMMERCE SERVICES</a>
+
+        <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v9.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/zh_CN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=install_email
+        page_id="115429020192809">
+      </div>
       </div>
     </div>
 
@@ -263,6 +288,8 @@
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i>
   <a href="https://wa.link/4b5i7a"class="back-to-facebook"><img src="/assets/whatapps-e4195645ad2663b61cabc73757cc178e34e5884fb6022a5bd1b936945b18aeb7.png" width="60"></a>
+
+
 
   <!-- Vendor JS Files -->
   <%= javascript_include_tag "jquery.min.js"%>
