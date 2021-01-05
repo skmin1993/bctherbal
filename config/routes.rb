@@ -4,6 +4,7 @@ Rails.application.routes.draw do
  
   root 'welcome#index'
 
-
+  resources :payment, only: [:index] do  
+  end
 
 end
